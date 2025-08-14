@@ -22,7 +22,7 @@
               'brand-dark': '#2d3748', // slate-800
               'brand-darker': '#1a202c', // slate-900
               'brand-accent': '#f59e0b', // amber-500
-              'brand-accent-hover': '#fbbF24', // amber-400
+              'brand-accent-hover': '#fbbf24', // amber-400 (Corrected typo)
             },
           }
         }
@@ -97,10 +97,14 @@
   }
 }
 </script>
+<!-- Add Babel for JSX and TSX transpilation in the browser -->
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 <link rel="stylesheet" href="/index.css">
 </head>
 <body class="font-sans leading-relaxed tracking-wide">
     <div id="root"></div>
-    <script type="module" src="/index.tsx"></script>
+    <!-- The crucial fix: data-presets tells Babel to transpile React and TypeScript -->
+    <script type="text/babel" data-presets="react,typescript" data-type="module" src="./index.tsx"></script>
+<script type="module" src="/index.tsx"></script>
 </body>
 </html>

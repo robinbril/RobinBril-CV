@@ -1,7 +1,7 @@
 import React from 'react';
-import useIntersectionObserver from '../hooks/useIntersectionObserver';
-import Section from './Section';
-import type { SectionContent, Interest, Language } from '../types';
+import useIntersectionObserver from '../hooks/useIntersectionObserver.ts';
+import Section from './Section.tsx';
+import type { SectionContent, Interest, Language } from '../types.ts';
 
 
 interface InterestItemProps {

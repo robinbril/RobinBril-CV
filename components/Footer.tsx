@@ -1,5 +1,5 @@
 import React from 'react';
-import type { Language } from '../types';
+import type { Language } from '../types.ts';
 
 interface FooterProps {
     lang: Language;

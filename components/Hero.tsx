@@ -1,5 +1,5 @@
 import React from 'react';
-import type { HeroContent, PersonalInfo } from '../types';
+import type { HeroContent, PersonalInfo } from '../types.ts';
 
 interface HeroProps {
     content: HeroContent;

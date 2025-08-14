@@ -1,7 +1,7 @@
 import React from 'react';
-import useIntersectionObserver from '../hooks/useIntersectionObserver';
-import Section from './Section';
-import type { ContactContent, PersonalInfo } from '../types';
+import useIntersectionObserver from '../hooks/useIntersectionObserver.ts';
+import Section from './Section.tsx';
+import type { ContactContent, PersonalInfo } from '../types.ts';
 
 interface ContactProps {
     content: ContactContent;

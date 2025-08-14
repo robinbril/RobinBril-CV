@@ -1,7 +1,7 @@
 import React from 'react';
-import useIntersectionObserver from '../hooks/useIntersectionObserver';
-import Section from './Section';
-import type { SectionContent, EducationItem, Language } from '../types';
+import useIntersectionObserver from '../hooks/useIntersectionObserver.ts';
+import Section from './Section.tsx';
+import type { SectionContent, EducationItem, Language } from '../types.ts';
 
 interface EducationItemProps {
     item: EducationItem;

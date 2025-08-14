@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import useIntersectionObserver from '../hooks/useIntersectionObserver';
-import Section from './Section';
-import type { SectionContent, Project, Language } from '../types';
+import useIntersectionObserver from '../hooks/useIntersectionObserver.ts';
+import Section from './Section.tsx';
+import type { SectionContent, Project, Language } from '../types.ts';
 
 interface ProjectCardProps {
     item: Project;

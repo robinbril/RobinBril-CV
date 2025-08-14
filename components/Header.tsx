@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import type { Language, NavLink, PersonalInfo } from '../types';
+import type { Language, NavLink, PersonalInfo } from '../types.ts';
 
 type Theme = 'light' | 'dark';
 

@@ -1,6 +1,6 @@
 import React from 'react';
-import useIntersectionObserver from '../hooks/useIntersectionObserver';
-import type { AboutContent } from '../types';
+import useIntersectionObserver from '../hooks/useIntersectionObserver.ts';
+import type { AboutContent } from '../types.ts';
 
 interface AboutProps {
     content: AboutContent;

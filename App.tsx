@@ -1,18 +1,18 @@
 import React, { useState, useEffect } from 'react';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import About from './components/About';
-import Experience from './components/Experience';
-import Projects from './components/Projects';
-import Skills from './components/Skills';
-import Education from './components/Education';
-import Development from './components/Development';
-import Interests from './components/Interests';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
-import AnimatedGradientBackground from './components/AnimatedGradientBackground';
-import { cvData } from './data/cvData';
-import type { Language } from './types';
+import Header from './components/Header.tsx';
+import Hero from './components/Hero.tsx';
+import About from './components/About.tsx';
+import Experience from './components/Experience.tsx';
+import Projects from './components/Projects.tsx';
+import Skills from './components/Skills.tsx';
+import Education from './components/Education.tsx';
+import Development from './components/Development.tsx';
+import Interests from './components/Interests.tsx';
+import Contact from './components/Contact.tsx';
+import Footer from './components/Footer.tsx';
+import AnimatedGradientBackground from './components/AnimatedGradientBackground.tsx';
+import { cvData } from './data/cvData.ts';
+import type { Language } from './types.ts';
 
 type Theme = 'light' | 'dark';
 

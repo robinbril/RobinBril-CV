@@ -1,4 +1,4 @@
-import type { CVData } from '../types';
+import type { CVData } from '../types.ts';
 
 export const cvData: CVData = {
   personal: {
